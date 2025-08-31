@@ -1,0 +1,13 @@
+prefix=/home/sachin/Desktop/assignment_solution/venv
+exec_prefix=/home/sachin/Desktop/assignment_solution/venv
+libdir=/home/sachin/Desktop/assignment_solution/venv/lib
+sharedlibdir=/home/sachin/Desktop/assignment_solution/venv/lib
+includedir=/home/sachin/Desktop/assignment_solution/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

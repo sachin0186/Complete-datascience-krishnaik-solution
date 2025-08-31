@@ -1,0 +1,11 @@
+prefix=/home/sachin/Desktop/assignment_solution/venv
+exec_prefix=/home/sachin/Desktop/assignment_solution/venv
+libdir=/home/sachin/Desktop/assignment_solution/venv/lib
+includedir=/home/sachin/Desktop/assignment_solution/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
